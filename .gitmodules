@@ -1,0 +1,3 @@
+[submodule "libPusher"]
+	path = libPusher
+	url = https://github.com/lukeredpath/libPusher.git
