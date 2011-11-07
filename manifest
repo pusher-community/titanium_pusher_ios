@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: Titanium Mobile module for the Pusher.com service
+author: Ruben Fonseca
+license: Specify your license
+copyright: Copyright (c) 2011 by Pusher
+
+
+# these should not be edited
+name: pusher
+moduleid: com.pusher
+guid: 60de5f27-d56c-4978-b3f4-9af9cd2fbbd1
+platform: iphone
+minsdk: 1.7.5
