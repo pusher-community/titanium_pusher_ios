@@ -52,6 +52,14 @@ Example:
 Please notice that to stop receiving events on that callback, you should
 use the standard `removeEventListener` function.
 
+## Events
+
+### event
+
+If you bind the event named 'event' you will automatically receive all
+the events that your device receives **on this channel**, regardless of the event name.
+Useful for debugging purposes.
+
 ## Example
 
 See the `example/app.js` provided with this module.
