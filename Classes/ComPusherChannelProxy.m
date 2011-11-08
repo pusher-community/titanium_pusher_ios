@@ -8,7 +8,6 @@
 
 #import "ComPusherChannelProxy.h"
 
-#import "PTPusherEvent.h"
 #import "TiUtils.h"
 
 @implementation ComPusherChannelProxy
@@ -36,7 +35,7 @@
 
 #pragma mark Methods
 -(void)unsubscribe:(id)args {
-  [pusherModule.pusher unsubscribeFromChannel:pusherChannel];
+  [pusherModule unsubscribeChannel:channel];
 }
 
 -(void)sendEvent:(id)args {
@@ -69,8 +68,13 @@
   [pusherChannel bindToEventNamed:type target:self action:@selector(handleEvent:)];
 }
 
--(void)handleEvent:(PTPusherEvent *)event {
-  [self fireEvent:event.name withObject:event.data];
+-(void)handleEvent:(PTPusherEvent *)pusher_event {
+  NSMutableDictionary *event = [NSMutableDictionary dictionary];
+  [event setValue:NULL_IF_NIL(pusher_event.channel) forKey:@"channel"];
+  [event setValue:NULL_IF_NIL(pusher_event.name) forKey:@"name"];
+  [event setValue:NULL_IF_NIL(pusher_event.data) forKey:@"data"];
+  
+  [self fireEvent:pusher_event.name withObject:event];
 }
 
 @end

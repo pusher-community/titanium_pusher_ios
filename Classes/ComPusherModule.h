@@ -13,9 +13,13 @@
 @interface ComPusherModule : TiModule <PTPusherDelegate> {
   PTPusher *pusher;
   PTPusherAPI *pusherAPI;
+  
+  NSMutableDictionary *channels;
 }
 
 @property (nonatomic,readonly) PTPusher *pusher;
 @property (nonatomic,readonly) PTPusherAPI *pusherAPI;
+
+-(void)unsubscribeChannel:(id)args;
 
 @end

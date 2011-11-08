@@ -18,11 +18,20 @@
 @synthesize pusher, pusherAPI;
 
 #pragma mark Internal
+-(id)init {
+  if(self = [super init]) {
+    channels = [[NSMutableDictionary alloc] init];
+  }
+  
+  return self;
+}
+
 -(void)dealloc {
   [[NSNotificationCenter defaultCenter] removeObserver:self name:PTPusherEventReceivedNotification object:pusher];
   
   RELEASE_TO_NIL(pusher);
   RELEASE_TO_NIL(pusherAPI);
+  RELEASE_TO_NIL(channels);
   [super dealloc];
 }
 
@@ -98,7 +107,23 @@
   [channel_object _configureWithPusher:self andChannel:channel];
   [channel_object _subscribe];
   
+  if(![channels valueForKey:channel])
+    [channels setValue:[[NSMutableSet alloc] init] forKey:channel];
+  
+  [[channels valueForKey:channel] addObject:channel_object];
+  
   return channel_object;
+}
+
+-(void)unsubscribeChannel:(id)args {
+  ENSURE_SINGLE_ARG(args, NSString)
+  NSString *channel = args;
+  
+  if([pusher channelNamed:channel]) {
+    [pusher unsubscribeFromChannel:[pusher channelNamed:channel]];
+  }
+  
+  [channels removeObjectForKey:channel];
 }
 
 -(void)sendEvent:(id)args {
@@ -126,14 +151,18 @@
 - (void)handlePusherEvent:(NSNotification *)note {
   PTPusherEvent *pusher_event = [note.userInfo objectForKey:PTPusherEventUserInfoKey];
   
-  if([self _hasListeners:@"event"]) {
-    NSMutableDictionary *event = [NSMutableDictionary dictionary];
-    [event setValue:NULL_IF_NIL(pusher_event.channel) forKey:@"channel"];
-    [event setValue:NULL_IF_NIL(pusher_event.name) forKey:@"name"];
-    [event setValue:NULL_IF_NIL(pusher_event.data) forKey:@"data"];
-    
-    [self fireEvent:@"event" withObject:event];
+  NSMutableDictionary *event = [NSMutableDictionary dictionary];
+  [event setValue:NULL_IF_NIL(pusher_event.channel) forKey:@"channel"];
+  [event setValue:NULL_IF_NIL(pusher_event.name) forKey:@"name"];
+  [event setValue:NULL_IF_NIL(pusher_event.data) forKey:@"data"];
+  
+  for(ComPusherChannelProxy *proxy in [channels valueForKey:pusher_event.channel]) {
+    if([proxy _hasListeners:@"event"])
+      [proxy fireEvent:@"event" withObject:event];
   }
+  
+  if([self _hasListeners:@"event"])
+    [self fireEvent:@"event" withObject:event];
 }
 
 #pragma mark Listeners

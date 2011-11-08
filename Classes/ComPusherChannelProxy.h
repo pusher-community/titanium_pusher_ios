@@ -10,6 +10,7 @@
 
 #import "PTPusher.h"
 #import "PTPusherChannel.h"
+#import "PTPusherEvent.h"
 
 #import "ComPusherModule.h"
 
