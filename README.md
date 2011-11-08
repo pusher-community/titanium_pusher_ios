@@ -14,3 +14,6 @@ the iOS SDK (currently 5.0), you can build simply by entering
 
 $ ./build.py
 
+You can also run the included example app by entering,
+
+$ titanium run
