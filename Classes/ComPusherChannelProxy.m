@@ -52,7 +52,7 @@
   NSDictionary *data  = [args objectAtIndex:kArgData];
   
   if(pusherModule.pusherAPI)
-    [pusherModule.pusherAPI triggetEvent:eventName onChannel:channel data:data socketID:pusherModule.pusher.connection.socketID];
+		[pusherModule.pusherAPI triggerEvent:eventName onChannel:channel data:data socketID:pusherModule.pusher.connection.socketID];
   else
     [self throwException:@"PusherAPI is not initialized" subreason:@"Please call the setup method with both the appID and the secret" location:CODELOCATION];
 }

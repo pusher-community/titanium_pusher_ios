@@ -65,6 +65,7 @@
   
   NSString *key = [TiUtils stringValue:@"key" properties:args];
   BOOL reconnectAutomaticaly = [TiUtils boolValue:@"reconnectAutomaticaly" properties:args def:YES];
+	BOOL encrypted = [TiUtils boolValue:@"encrypted" properties:args def:YES];
   NSTimeInterval reconnectDelay = [TiUtils intValue:@"reconnectDelay" properties:args def:5];
   
   if(pusher) {
@@ -72,7 +73,7 @@
     RELEASE_TO_NIL(pusher);
   }
   
-  pusher = [PTPusher pusherWithKey:key connectAutomatically:NO];
+  pusher = [PTPusher pusherWithKey:key connectAutomatically:NO encrypted:encrypted];
   pusher.reconnectAutomatically = reconnectAutomaticaly;
   pusher.reconnectDelay = reconnectDelay;
   pusher.delegate = self;
@@ -142,7 +143,7 @@
   NSDictionary *data  = [args objectAtIndex:kArgData];
   
   if(pusherAPI)
-    [pusherAPI triggetEvent:eventName onChannel:channelName data:data socketID:pusher.connection.socketID];
+		[pusherAPI triggerEvent:eventName onChannel:channelName data:data socketID:pusher.connection.socketID];
   else
     [self throwException:@"PusherAPI is not initialized" subreason:@"Please call the setup method with both the appID and the secret" location:CODELOCATION];
 }

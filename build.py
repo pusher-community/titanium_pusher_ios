@@ -139,16 +139,24 @@ def zip_dir(zf,dir,basepath,ignore=[]):
 
 def glob_libfiles():
 	files = []
-	for libfile in glob.glob('build/**/*.a'):
+	for libfile in glob.glob('build/pusher/Build/Products/**/libComPusher.a'):
 		if libfile.find('Release-')!=-1:
 			files.append(libfile)
 	return files
 
 def build_module(manifest,config):
-	rc = os.system("xcodebuild -sdk iphoneos -configuration Release")
+	rc = os.system("xcodebuild -workspace pusher.xcworkspace -scheme Pods -sdk iphoneos -configuration Release")
 	if rc != 0:
 		die("xcodebuild failed")
-	rc = os.system("xcodebuild -sdk iphonesimulator -configuration Release")
+	rc = os.system("xcodebuild -workspace pusher.xcworkspace -scheme Pods -sdk iphonesimulator -configuration Release")
+
+	if rc != 0:
+		die("xcodebuild failed")
+    # build the merged library using lipo
+	rc = os.system("xcodebuild -workspace pusher.xcworkspace -scheme pusher -sdk iphoneos -configuration Release")
+	if rc != 0:
+		die("xcodebuild failed")
+	rc = os.system("xcodebuild -workspace pusher.xcworkspace -scheme pusher -sdk iphonesimulator -configuration Release")
 	if rc != 0:
 		die("xcodebuild failed")
     # build the merged library using lipo
