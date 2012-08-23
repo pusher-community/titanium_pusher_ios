@@ -1,0 +1,9 @@
+PODS:
+  - SocketRocket (0.1)
+  - TouchJSON (1.0)
+  - libPusher (1.3):
+    - SocketRocket
+
+DEPENDENCIES:
+  - TouchJSON
+  - libPusher (= 1.3)

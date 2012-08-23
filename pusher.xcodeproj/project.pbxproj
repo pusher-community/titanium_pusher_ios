@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -28,63 +28,9 @@
 		3EBB8BFF1466E56E008A4399 /* ComPusherChannelProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8BF91466E56E008A4399 /* ComPusherChannelProxy.m */; };
 		3EBB8C021466E56E008A4399 /* ComPusherModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8BFC1466E56E008A4399 /* ComPusherModuleAssets.h */; };
 		3EBB8C031466E56E008A4399 /* ComPusherModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8BFD1466E56E008A4399 /* ComPusherModuleAssets.m */; };
-		3EBB8C221466E5C7008A4399 /* NSDictionary+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C051466E5C7008A4399 /* NSDictionary+QueryString.h */; };
-		3EBB8C231466E5C7008A4399 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C061466E5C7008A4399 /* NSDictionary+QueryString.m */; };
-		3EBB8C241466E5C7008A4399 /* NSString+Hashing.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C071466E5C7008A4399 /* NSString+Hashing.h */; };
-		3EBB8C251466E5C7008A4399 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C081466E5C7008A4399 /* NSString+Hashing.m */; };
-		3EBB8C261466E5C7008A4399 /* PTBlockEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C091466E5C7008A4399 /* PTBlockEventListener.h */; };
-		3EBB8C271466E5C7008A4399 /* PTBlockEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C0A1466E5C7008A4399 /* PTBlockEventListener.m */; };
-		3EBB8C281466E5C7008A4399 /* PTEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C0B1466E5C7008A4399 /* PTEventListener.h */; };
-		3EBB8C291466E5C7008A4399 /* PTPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C0C1466E5C7008A4399 /* PTPusher.h */; };
-		3EBB8C2A1466E5C7008A4399 /* PTPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C0D1466E5C7008A4399 /* PTPusher.m */; };
-		3EBB8C2B1466E5C7008A4399 /* PTPusherAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C0E1466E5C7008A4399 /* PTPusherAPI.h */; };
-		3EBB8C2C1466E5C7008A4399 /* PTPusherAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C0F1466E5C7008A4399 /* PTPusherAPI.m */; };
-		3EBB8C2D1466E5C7008A4399 /* PTPusherChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C101466E5C7008A4399 /* PTPusherChannel.h */; };
-		3EBB8C2E1466E5C7008A4399 /* PTPusherChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C111466E5C7008A4399 /* PTPusherChannel.m */; };
-		3EBB8C2F1466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C121466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.h */; };
-		3EBB8C301466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C131466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.m */; };
-		3EBB8C311466E5C7008A4399 /* PTPusherConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C141466E5C7008A4399 /* PTPusherConnection.h */; };
-		3EBB8C321466E5C7008A4399 /* PTPusherConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C151466E5C7008A4399 /* PTPusherConnection.m */; };
-		3EBB8C331466E5C7008A4399 /* PTPusherDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C161466E5C7008A4399 /* PTPusherDelegate.h */; };
-		3EBB8C341466E5C7008A4399 /* PTPusherErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C171466E5C7008A4399 /* PTPusherErrors.h */; };
-		3EBB8C351466E5C7008A4399 /* PTPusherEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C181466E5C7008A4399 /* PTPusherEvent.h */; };
-		3EBB8C361466E5C7008A4399 /* PTPusherEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C191466E5C7008A4399 /* PTPusherEvent.m */; };
-		3EBB8C371466E5C7008A4399 /* PTPusherEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C1A1466E5C7008A4399 /* PTPusherEventDispatcher.h */; };
-		3EBB8C381466E5C7008A4399 /* PTPusherEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C1B1466E5C7008A4399 /* PTPusherEventDispatcher.m */; };
-		3EBB8C391466E5C7008A4399 /* PTPusherEventPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C1C1466E5C7008A4399 /* PTPusherEventPublisher.h */; };
-		3EBB8C3A1466E5C7008A4399 /* PTPusherPresenceChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C1D1466E5C7008A4399 /* PTPusherPresenceChannelDelegate.h */; };
-		3EBB8C3B1466E5C7008A4399 /* PTTargetActionEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C1E1466E5C7008A4399 /* PTTargetActionEventListener.h */; };
-		3EBB8C3C1466E5C7008A4399 /* PTTargetActionEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C1F1466E5C7008A4399 /* PTTargetActionEventListener.m */; };
-		3EBB8C3D1466E5C7008A4399 /* PTURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C201466E5C7008A4399 /* PTURLRequestOperation.h */; };
-		3EBB8C3E1466E5C7008A4399 /* PTURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C211466E5C7008A4399 /* PTURLRequestOperation.m */; };
-		3EBB8CC51466E5E7008A4399 /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C4A1466E5E7008A4399 /* CDataScanner.h */; };
-		3EBB8CC61466E5E7008A4399 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C4B1466E5E7008A4399 /* CDataScanner.m */; };
-		3EBB8CC71466E5E7008A4399 /* CFilteringJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C4D1466E5E7008A4399 /* CFilteringJSONSerializer.h */; };
-		3EBB8CC81466E5E7008A4399 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C4E1466E5E7008A4399 /* CFilteringJSONSerializer.m */; };
-		3EBB8CC91466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C4F1466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.h */; };
-		3EBB8CCA1466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C501466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.m */; };
-		3EBB8CCB1466E5E7008A4399 /* CJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C511466E5E7008A4399 /* CJSONSerialization.h */; };
-		3EBB8CCC1466E5E7008A4399 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C521466E5E7008A4399 /* CJSONSerialization.m */; };
-		3EBB8CCD1466E5E7008A4399 /* CJSONSerializedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C531466E5E7008A4399 /* CJSONSerializedData.h */; };
-		3EBB8CCE1466E5E7008A4399 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C541466E5E7008A4399 /* CJSONSerializedData.m */; };
-		3EBB8CCF1466E5E7008A4399 /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C561466E5E7008A4399 /* CDataScanner_Extensions.h */; };
-		3EBB8CD01466E5E7008A4399 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C571466E5E7008A4399 /* CDataScanner_Extensions.m */; };
-		3EBB8CD11466E5E7008A4399 /* NSDictionary_JSONExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C581466E5E7008A4399 /* NSDictionary_JSONExtensions.h */; };
-		3EBB8CD21466E5E7008A4399 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C591466E5E7008A4399 /* NSDictionary_JSONExtensions.m */; };
-		3EBB8CD31466E5E7008A4399 /* CJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C5B1466E5E7008A4399 /* CJSONDeserializer.h */; };
-		3EBB8CD41466E5E7008A4399 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C5C1466E5E7008A4399 /* CJSONDeserializer.m */; };
-		3EBB8CD51466E5E7008A4399 /* CJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C5D1466E5E7008A4399 /* CJSONScanner.h */; };
-		3EBB8CD61466E5E7008A4399 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C5E1466E5E7008A4399 /* CJSONScanner.m */; };
-		3EBB8CD71466E5E7008A4399 /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C5F1466E5E7008A4399 /* CJSONSerializer.h */; };
-		3EBB8CD81466E5E7008A4399 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C601466E5E7008A4399 /* CJSONSerializer.m */; };
-		3EBB8CD91466E5E7008A4399 /* JSONRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C611466E5E7008A4399 /* JSONRepresentation.h */; };
-		3EBB8CDA1466E5E7008A4399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C641466E5E7008A4399 /* main.m */; };
-		3EBB8CDB1466E5E7008A4399 /* TouchJSONBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C661466E5E7008A4399 /* TouchJSONBenchmark.m */; };
-		3EBB8CDC1466E5E7008A4399 /* TouchJSONBenchmark_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C6A1466E5E7008A4399 /* TouchJSONBenchmark_Prefix.pch */; };
-		3EBB8CE51466E5E7008A4399 /* ZTWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8CB61466E5E7008A4399 /* ZTWebSocket.h */; };
-		3EBB8CE61466E5E7008A4399 /* ZTWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8CB71466E5E7008A4399 /* ZTWebSocket.m */; };
 		AA747D9F0F9514B9006C5449 /* ComPusher_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPusher_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E0BBBD3B4B4F49C48FF16BBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAD70731F8D4AB2AE363314 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,41 +40,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = pusher;
-		};
-		3EBB8CE91466E5E7008A4399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EBB8C6F1466E5E7008A4399 /* TouchJSON-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 37A8C0F312B720A8009953BD;
-			remoteInfo = "TouchJSON-iphoneos";
-		};
-		3EBB8CEB1466E5E7008A4399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EBB8C6F1466E5E7008A4399 /* TouchJSON-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 036A8E491356413D001DC50C;
-			remoteInfo = "TouchJSON-iphonesimulator";
-		};
-		3EBB8CF01466E5E7008A4399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EBB8C721466E5E7008A4399 /* TouchJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45B15E110947D97B00AE66EB;
-			remoteInfo = UnitTests;
-		};
-		3EBB8CF21466E5E7008A4399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EBB8C721466E5E7008A4399 /* TouchJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 453111B10A64EDBB00A970C2;
-			remoteInfo = Demo;
-		};
-		3EBB8CF51466E5E7008A4399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EBB8C671466E5E7008A4399 /* TouchJSONBenchmark.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
-			remoteInfo = TouchJSONBenchmark;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -140,136 +51,10 @@
 		3EBB8BF91466E56E008A4399 /* ComPusherChannelProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPusherChannelProxy.m; path = Classes/ComPusherChannelProxy.m; sourceTree = "<group>"; };
 		3EBB8BFC1466E56E008A4399 /* ComPusherModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPusherModuleAssets.h; path = Classes/ComPusherModuleAssets.h; sourceTree = "<group>"; };
 		3EBB8BFD1466E56E008A4399 /* ComPusherModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPusherModuleAssets.m; path = Classes/ComPusherModuleAssets.m; sourceTree = "<group>"; };
-		3EBB8C051466E5C7008A4399 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
-		3EBB8C061466E5C7008A4399 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
-		3EBB8C071466E5C7008A4399 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
-		3EBB8C081466E5C7008A4399 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
-		3EBB8C091466E5C7008A4399 /* PTBlockEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBlockEventListener.h; sourceTree = "<group>"; };
-		3EBB8C0A1466E5C7008A4399 /* PTBlockEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBlockEventListener.m; sourceTree = "<group>"; };
-		3EBB8C0B1466E5C7008A4399 /* PTEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEventListener.h; sourceTree = "<group>"; };
-		3EBB8C0C1466E5C7008A4399 /* PTPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusher.h; sourceTree = "<group>"; };
-		3EBB8C0D1466E5C7008A4399 /* PTPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusher.m; sourceTree = "<group>"; };
-		3EBB8C0E1466E5C7008A4399 /* PTPusherAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherAPI.h; sourceTree = "<group>"; };
-		3EBB8C0F1466E5C7008A4399 /* PTPusherAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherAPI.m; sourceTree = "<group>"; };
-		3EBB8C101466E5C7008A4399 /* PTPusherChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherChannel.h; sourceTree = "<group>"; };
-		3EBB8C111466E5C7008A4399 /* PTPusherChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherChannel.m; sourceTree = "<group>"; };
-		3EBB8C121466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherChannelAuthorizationOperation.h; sourceTree = "<group>"; };
-		3EBB8C131466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherChannelAuthorizationOperation.m; sourceTree = "<group>"; };
-		3EBB8C141466E5C7008A4399 /* PTPusherConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherConnection.h; sourceTree = "<group>"; };
-		3EBB8C151466E5C7008A4399 /* PTPusherConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherConnection.m; sourceTree = "<group>"; };
-		3EBB8C161466E5C7008A4399 /* PTPusherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherDelegate.h; sourceTree = "<group>"; };
-		3EBB8C171466E5C7008A4399 /* PTPusherErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherErrors.h; sourceTree = "<group>"; };
-		3EBB8C181466E5C7008A4399 /* PTPusherEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEvent.h; sourceTree = "<group>"; };
-		3EBB8C191466E5C7008A4399 /* PTPusherEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherEvent.m; sourceTree = "<group>"; };
-		3EBB8C1A1466E5C7008A4399 /* PTPusherEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEventDispatcher.h; sourceTree = "<group>"; };
-		3EBB8C1B1466E5C7008A4399 /* PTPusherEventDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPusherEventDispatcher.m; sourceTree = "<group>"; };
-		3EBB8C1C1466E5C7008A4399 /* PTPusherEventPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEventPublisher.h; sourceTree = "<group>"; };
-		3EBB8C1D1466E5C7008A4399 /* PTPusherPresenceChannelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherPresenceChannelDelegate.h; sourceTree = "<group>"; };
-		3EBB8C1E1466E5C7008A4399 /* PTTargetActionEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTargetActionEventListener.h; sourceTree = "<group>"; };
-		3EBB8C1F1466E5C7008A4399 /* PTTargetActionEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTTargetActionEventListener.m; sourceTree = "<group>"; };
-		3EBB8C201466E5C7008A4399 /* PTURLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTURLRequestOperation.h; sourceTree = "<group>"; };
-		3EBB8C211466E5C7008A4399 /* PTURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTURLRequestOperation.m; sourceTree = "<group>"; };
-		3EBB8C411466E5E7008A4399 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		3EBB8C421466E5E7008A4399 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		3EBB8C451466E5E7008A4399 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3EBB8C461466E5E7008A4399 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		3EBB8C471466E5E7008A4399 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		3EBB8C481466E5E7008A4399 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		3EBB8C4A1466E5E7008A4399 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
-		3EBB8C4B1466E5E7008A4399 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
-		3EBB8C4D1466E5E7008A4399 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
-		3EBB8C4E1466E5E7008A4399 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
-		3EBB8C4F1466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
-		3EBB8C501466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
-		3EBB8C511466E5E7008A4399 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
-		3EBB8C521466E5E7008A4399 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
-		3EBB8C531466E5E7008A4399 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
-		3EBB8C541466E5E7008A4399 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
-		3EBB8C561466E5E7008A4399 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
-		3EBB8C571466E5E7008A4399 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
-		3EBB8C581466E5E7008A4399 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
-		3EBB8C591466E5E7008A4399 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
-		3EBB8C5B1466E5E7008A4399 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
-		3EBB8C5C1466E5E7008A4399 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
-		3EBB8C5D1466E5E7008A4399 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
-		3EBB8C5E1466E5E7008A4399 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
-		3EBB8C5F1466E5E7008A4399 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
-		3EBB8C601466E5E7008A4399 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
-		3EBB8C611466E5E7008A4399 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
-		3EBB8C641466E5E7008A4399 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3EBB8C661466E5E7008A4399 /* TouchJSONBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchJSONBenchmark.m; sourceTree = "<group>"; };
-		3EBB8C671466E5E7008A4399 /* TouchJSONBenchmark.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TouchJSONBenchmark.xcodeproj; sourceTree = "<group>"; };
-		3EBB8C6A1466E5E7008A4399 /* TouchJSONBenchmark_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchJSONBenchmark_Prefix.pch; sourceTree = "<group>"; };
-		3EBB8C6C1466E5E7008A4399 /* atomicbird.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = atomicbird.json; sourceTree = "<group>"; };
-		3EBB8C6D1466E5E7008A4399 /* twitter_public_timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_public_timeline.json; sourceTree = "<group>"; };
-		3EBB8C6E1466E5E7008A4399 /* twitter_public_timeline_tidied.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_public_timeline_tidied.json; sourceTree = "<group>"; };
-		3EBB8C6F1466E5E7008A4399 /* TouchJSON-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "TouchJSON-iOS.xcodeproj"; sourceTree = "<group>"; };
-		3EBB8C721466E5E7008A4399 /* TouchJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TouchJSON.xcodeproj; sourceTree = "<group>"; };
-		3EBB8C761466E5E7008A4399 /* Blake.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Blake.json; sourceTree = "<group>"; };
-		3EBB8C771466E5E7008A4399 /* CDataScanner_UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_UnitTests.h; sourceTree = "<group>"; };
-		3EBB8C781466E5E7008A4399 /* CDataScanner_UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_UnitTests.m; sourceTree = "<group>"; };
-		3EBB8C791466E5E7008A4399 /* CJSONDeserializer_UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_UnitTests.h; sourceTree = "<group>"; };
-		3EBB8C7A1466E5E7008A4399 /* CJSONDeserializer_UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_UnitTests.m; sourceTree = "<group>"; };
-		3EBB8C7B1466E5E7008A4399 /* CJSONScanner_UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner_UnitTests.h; sourceTree = "<group>"; };
-		3EBB8C7C1466E5E7008A4399 /* CJSONScanner_UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner_UnitTests.m; sourceTree = "<group>"; };
-		3EBB8C7D1466E5E7008A4399 /* CJSONSerializer_UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer_UnitTests.h; sourceTree = "<group>"; };
-		3EBB8C7E1466E5E7008A4399 /* CJSONSerializer_UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer_UnitTests.m; sourceTree = "<group>"; };
-		3EBB8C7F1466E5E7008A4399 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EBB8C811466E5E7008A4399 /* ex1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ex1.json; sourceTree = "<group>"; };
-		3EBB8C821466E5E7008A4399 /* ex1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ex1.plist; sourceTree = "<group>"; };
-		3EBB8C831466E5E7008A4399 /* ex2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ex2.json; sourceTree = "<group>"; };
-		3EBB8C841466E5E7008A4399 /* ex2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ex2.plist; sourceTree = "<group>"; };
-		3EBB8C851466E5E7008A4399 /* ex3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ex3.json; sourceTree = "<group>"; };
-		3EBB8C861466E5E7008A4399 /* ex3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ex3.plist; sourceTree = "<group>"; };
-		3EBB8C871466E5E7008A4399 /* ex4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ex4.json; sourceTree = "<group>"; };
-		3EBB8C881466E5E7008A4399 /* ex4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ex4.plist; sourceTree = "<group>"; };
-		3EBB8C891466E5E7008A4399 /* ex5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ex5.json; sourceTree = "<group>"; };
-		3EBB8C8B1466E5E7008A4399 /* fail1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail1.json; sourceTree = "<group>"; };
-		3EBB8C8C1466E5E7008A4399 /* fail10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail10.json; sourceTree = "<group>"; };
-		3EBB8C8D1466E5E7008A4399 /* fail11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail11.json; sourceTree = "<group>"; };
-		3EBB8C8E1466E5E7008A4399 /* fail12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail12.json; sourceTree = "<group>"; };
-		3EBB8C8F1466E5E7008A4399 /* fail13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail13.json; sourceTree = "<group>"; };
-		3EBB8C901466E5E7008A4399 /* fail14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail14.json; sourceTree = "<group>"; };
-		3EBB8C911466E5E7008A4399 /* fail15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail15.json; sourceTree = "<group>"; };
-		3EBB8C921466E5E7008A4399 /* fail16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail16.json; sourceTree = "<group>"; };
-		3EBB8C931466E5E7008A4399 /* fail17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail17.json; sourceTree = "<group>"; };
-		3EBB8C941466E5E7008A4399 /* fail18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail18.json; sourceTree = "<group>"; };
-		3EBB8C951466E5E7008A4399 /* fail19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail19.json; sourceTree = "<group>"; };
-		3EBB8C961466E5E7008A4399 /* fail2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail2.json; sourceTree = "<group>"; };
-		3EBB8C971466E5E7008A4399 /* fail20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail20.json; sourceTree = "<group>"; };
-		3EBB8C981466E5E7008A4399 /* fail21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail21.json; sourceTree = "<group>"; };
-		3EBB8C991466E5E7008A4399 /* fail22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail22.json; sourceTree = "<group>"; };
-		3EBB8C9A1466E5E7008A4399 /* fail23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail23.json; sourceTree = "<group>"; };
-		3EBB8C9B1466E5E7008A4399 /* fail24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail24.json; sourceTree = "<group>"; };
-		3EBB8C9C1466E5E7008A4399 /* fail25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail25.json; sourceTree = "<group>"; };
-		3EBB8C9D1466E5E7008A4399 /* fail26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail26.json; sourceTree = "<group>"; };
-		3EBB8C9E1466E5E7008A4399 /* fail27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail27.json; sourceTree = "<group>"; };
-		3EBB8C9F1466E5E7008A4399 /* fail28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail28.json; sourceTree = "<group>"; };
-		3EBB8CA01466E5E7008A4399 /* fail29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail29.json; sourceTree = "<group>"; };
-		3EBB8CA11466E5E7008A4399 /* fail3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail3.json; sourceTree = "<group>"; };
-		3EBB8CA21466E5E7008A4399 /* fail30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail30.json; sourceTree = "<group>"; };
-		3EBB8CA31466E5E7008A4399 /* fail31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail31.json; sourceTree = "<group>"; };
-		3EBB8CA41466E5E7008A4399 /* fail32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail32.json; sourceTree = "<group>"; };
-		3EBB8CA51466E5E7008A4399 /* fail33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail33.json; sourceTree = "<group>"; };
-		3EBB8CA61466E5E7008A4399 /* fail4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail4.json; sourceTree = "<group>"; };
-		3EBB8CA71466E5E7008A4399 /* fail5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail5.json; sourceTree = "<group>"; };
-		3EBB8CA81466E5E7008A4399 /* fail6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail6.json; sourceTree = "<group>"; };
-		3EBB8CA91466E5E7008A4399 /* fail7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail7.json; sourceTree = "<group>"; };
-		3EBB8CAA1466E5E7008A4399 /* fail8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail8.json; sourceTree = "<group>"; };
-		3EBB8CAB1466E5E7008A4399 /* fail9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail9.json; sourceTree = "<group>"; };
-		3EBB8CAC1466E5E7008A4399 /* pass1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass1.json; sourceTree = "<group>"; };
-		3EBB8CAD1466E5E7008A4399 /* pass2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass2.json; sourceTree = "<group>"; };
-		3EBB8CAE1466E5E7008A4399 /* pass3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass3.json; sourceTree = "<group>"; };
-		3EBB8CAF1466E5E7008A4399 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		3EBB8CB01466E5E7008A4399 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		3EBB8CB11466E5E7008A4399 /* rfc4627a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rfc4627a.json; sourceTree = "<group>"; };
-		3EBB8CB21466E5E7008A4399 /* rfc4627a.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rfc4627a.plist; sourceTree = "<group>"; };
-		3EBB8CB31466E5E7008A4399 /* rfc4627b.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rfc4627b.json; sourceTree = "<group>"; };
-		3EBB8CB41466E5E7008A4399 /* rfc4627b.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rfc4627b.plist; sourceTree = "<group>"; };
-		3EBB8CB61466E5E7008A4399 /* ZTWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTWebSocket.h; sourceTree = "<group>"; };
-		3EBB8CB71466E5E7008A4399 /* ZTWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTWebSocket.m; sourceTree = "<group>"; };
+		4BAD70731F8D4AB2AE363314 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EAEBEC656546409E24ABFC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		AA747D9E0F9514B9006C5449 /* ComPusher_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPusher_Prefix.pch; sourceTree = SOURCE_ROOT; };
-		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComPusher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPusher.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -279,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				E0BBBD3B4B4F49C48FF16BBF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +86,7 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				69EAEBEC656546409E24ABFC /* Pods.xcconfig */,
 			);
 			name = pusher;
 			sourceTree = "<group>";
@@ -308,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				4BAD70731F8D4AB2AE363314 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,302 +116,10 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3EBB8C3F1466E5E7008A4399 /* Vendor */,
-				3EBB8C041466E5C7008A4399 /* libPusher */,
 				AA747D9E0F9514B9006C5449 /* ComPusher_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		3EBB8C041466E5C7008A4399 /* libPusher */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C051466E5C7008A4399 /* NSDictionary+QueryString.h */,
-				3EBB8C061466E5C7008A4399 /* NSDictionary+QueryString.m */,
-				3EBB8C071466E5C7008A4399 /* NSString+Hashing.h */,
-				3EBB8C081466E5C7008A4399 /* NSString+Hashing.m */,
-				3EBB8C091466E5C7008A4399 /* PTBlockEventListener.h */,
-				3EBB8C0A1466E5C7008A4399 /* PTBlockEventListener.m */,
-				3EBB8C0B1466E5C7008A4399 /* PTEventListener.h */,
-				3EBB8C0C1466E5C7008A4399 /* PTPusher.h */,
-				3EBB8C0D1466E5C7008A4399 /* PTPusher.m */,
-				3EBB8C0E1466E5C7008A4399 /* PTPusherAPI.h */,
-				3EBB8C0F1466E5C7008A4399 /* PTPusherAPI.m */,
-				3EBB8C101466E5C7008A4399 /* PTPusherChannel.h */,
-				3EBB8C111466E5C7008A4399 /* PTPusherChannel.m */,
-				3EBB8C121466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.h */,
-				3EBB8C131466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.m */,
-				3EBB8C141466E5C7008A4399 /* PTPusherConnection.h */,
-				3EBB8C151466E5C7008A4399 /* PTPusherConnection.m */,
-				3EBB8C161466E5C7008A4399 /* PTPusherDelegate.h */,
-				3EBB8C171466E5C7008A4399 /* PTPusherErrors.h */,
-				3EBB8C181466E5C7008A4399 /* PTPusherEvent.h */,
-				3EBB8C191466E5C7008A4399 /* PTPusherEvent.m */,
-				3EBB8C1A1466E5C7008A4399 /* PTPusherEventDispatcher.h */,
-				3EBB8C1B1466E5C7008A4399 /* PTPusherEventDispatcher.m */,
-				3EBB8C1C1466E5C7008A4399 /* PTPusherEventPublisher.h */,
-				3EBB8C1D1466E5C7008A4399 /* PTPusherPresenceChannelDelegate.h */,
-				3EBB8C1E1466E5C7008A4399 /* PTTargetActionEventListener.h */,
-				3EBB8C1F1466E5C7008A4399 /* PTTargetActionEventListener.m */,
-				3EBB8C201466E5C7008A4399 /* PTURLRequestOperation.h */,
-				3EBB8C211466E5C7008A4399 /* PTURLRequestOperation.m */,
-			);
-			name = libPusher;
-			path = libPusher/Library;
-			sourceTree = "<group>";
-		};
-		3EBB8C3F1466E5E7008A4399 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C401466E5E7008A4399 /* AsyncSocket */,
-				3EBB8C431466E5E7008A4399 /* Mocky */,
-				3EBB8C441466E5E7008A4399 /* TouchJSON */,
-				3EBB8CB51466E5E7008A4399 /* ZTWebSocket */,
-			);
-			name = Vendor;
-			path = libPusher/Vendor;
-			sourceTree = "<group>";
-		};
-		3EBB8C401466E5E7008A4399 /* AsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C411466E5E7008A4399 /* AsyncSocket.h */,
-				3EBB8C421466E5E7008A4399 /* AsyncSocket.m */,
-			);
-			path = AsyncSocket;
-			sourceTree = "<group>";
-		};
-		3EBB8C431466E5E7008A4399 /* Mocky */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mocky;
-			sourceTree = "<group>";
-		};
-		3EBB8C441466E5E7008A4399 /* TouchJSON */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C451466E5E7008A4399 /* .gitignore */,
-				3EBB8C461466E5E7008A4399 /* Config.xcconfig */,
-				3EBB8C471466E5E7008A4399 /* LICENSE.txt */,
-				3EBB8C481466E5E7008A4399 /* README.markdown */,
-				3EBB8C491466E5E7008A4399 /* Source */,
-				3EBB8C621466E5E7008A4399 /* Support */,
-			);
-			path = TouchJSON;
-			sourceTree = "<group>";
-		};
-		3EBB8C491466E5E7008A4399 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C4A1466E5E7008A4399 /* CDataScanner.h */,
-				3EBB8C4B1466E5E7008A4399 /* CDataScanner.m */,
-				3EBB8C4C1466E5E7008A4399 /* Experimental */,
-				3EBB8C551466E5E7008A4399 /* Extensions */,
-				3EBB8C5A1466E5E7008A4399 /* JSON */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		3EBB8C4C1466E5E7008A4399 /* Experimental */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C4D1466E5E7008A4399 /* CFilteringJSONSerializer.h */,
-				3EBB8C4E1466E5E7008A4399 /* CFilteringJSONSerializer.m */,
-				3EBB8C4F1466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.h */,
-				3EBB8C501466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.m */,
-				3EBB8C511466E5E7008A4399 /* CJSONSerialization.h */,
-				3EBB8C521466E5E7008A4399 /* CJSONSerialization.m */,
-				3EBB8C531466E5E7008A4399 /* CJSONSerializedData.h */,
-				3EBB8C541466E5E7008A4399 /* CJSONSerializedData.m */,
-			);
-			path = Experimental;
-			sourceTree = "<group>";
-		};
-		3EBB8C551466E5E7008A4399 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C561466E5E7008A4399 /* CDataScanner_Extensions.h */,
-				3EBB8C571466E5E7008A4399 /* CDataScanner_Extensions.m */,
-				3EBB8C581466E5E7008A4399 /* NSDictionary_JSONExtensions.h */,
-				3EBB8C591466E5E7008A4399 /* NSDictionary_JSONExtensions.m */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3EBB8C5A1466E5E7008A4399 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C5B1466E5E7008A4399 /* CJSONDeserializer.h */,
-				3EBB8C5C1466E5E7008A4399 /* CJSONDeserializer.m */,
-				3EBB8C5D1466E5E7008A4399 /* CJSONScanner.h */,
-				3EBB8C5E1466E5E7008A4399 /* CJSONScanner.m */,
-				3EBB8C5F1466E5E7008A4399 /* CJSONSerializer.h */,
-				3EBB8C601466E5E7008A4399 /* CJSONSerializer.m */,
-				3EBB8C611466E5E7008A4399 /* JSONRepresentation.h */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		3EBB8C621466E5E7008A4399 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C631466E5E7008A4399 /* Demo */,
-				3EBB8C651466E5E7008A4399 /* NewBenchmark */,
-				3EBB8C6B1466E5E7008A4399 /* Test Data */,
-				3EBB8C6F1466E5E7008A4399 /* TouchJSON-iOS.xcodeproj */,
-				3EBB8C721466E5E7008A4399 /* TouchJSON.xcodeproj */,
-				3EBB8C751466E5E7008A4399 /* UnitTests */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		3EBB8C631466E5E7008A4399 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C641466E5E7008A4399 /* main.m */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		3EBB8C651466E5E7008A4399 /* NewBenchmark */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C661466E5E7008A4399 /* TouchJSONBenchmark.m */,
-				3EBB8C671466E5E7008A4399 /* TouchJSONBenchmark.xcodeproj */,
-				3EBB8C6A1466E5E7008A4399 /* TouchJSONBenchmark_Prefix.pch */,
-			);
-			path = NewBenchmark;
-			sourceTree = "<group>";
-		};
-		3EBB8C681466E5E7008A4399 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8CF61466E5E7008A4399 /* TouchJSONBenchmark */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EBB8C6B1466E5E7008A4399 /* Test Data */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C6C1466E5E7008A4399 /* atomicbird.json */,
-				3EBB8C6D1466E5E7008A4399 /* twitter_public_timeline.json */,
-				3EBB8C6E1466E5E7008A4399 /* twitter_public_timeline_tidied.json */,
-			);
-			path = "Test Data";
-			sourceTree = "<group>";
-		};
-		3EBB8C701466E5E7008A4399 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8CEA1466E5E7008A4399 /* libTouchJSON-iphoneos.a */,
-				3EBB8CEC1466E5E7008A4399 /* libTouchJSON-iphonesimulator.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EBB8C731466E5E7008A4399 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8CF11466E5E7008A4399 /* UnitTests.octest */,
-				3EBB8CF31466E5E7008A4399 /* TouchJSON Demo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EBB8C751466E5E7008A4399 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C761466E5E7008A4399 /* Blake.json */,
-				3EBB8C771466E5E7008A4399 /* CDataScanner_UnitTests.h */,
-				3EBB8C781466E5E7008A4399 /* CDataScanner_UnitTests.m */,
-				3EBB8C791466E5E7008A4399 /* CJSONDeserializer_UnitTests.h */,
-				3EBB8C7A1466E5E7008A4399 /* CJSONDeserializer_UnitTests.m */,
-				3EBB8C7B1466E5E7008A4399 /* CJSONScanner_UnitTests.h */,
-				3EBB8C7C1466E5E7008A4399 /* CJSONScanner_UnitTests.m */,
-				3EBB8C7D1466E5E7008A4399 /* CJSONSerializer_UnitTests.h */,
-				3EBB8C7E1466E5E7008A4399 /* CJSONSerializer_UnitTests.m */,
-				3EBB8C7F1466E5E7008A4399 /* Info.plist */,
-				3EBB8C801466E5E7008A4399 /* TestData */,
-			);
-			path = UnitTests;
-			sourceTree = "<group>";
-		};
-		3EBB8C801466E5E7008A4399 /* TestData */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C811466E5E7008A4399 /* ex1.json */,
-				3EBB8C821466E5E7008A4399 /* ex1.plist */,
-				3EBB8C831466E5E7008A4399 /* ex2.json */,
-				3EBB8C841466E5E7008A4399 /* ex2.plist */,
-				3EBB8C851466E5E7008A4399 /* ex3.json */,
-				3EBB8C861466E5E7008A4399 /* ex3.plist */,
-				3EBB8C871466E5E7008A4399 /* ex4.json */,
-				3EBB8C881466E5E7008A4399 /* ex4.plist */,
-				3EBB8C891466E5E7008A4399 /* ex5.json */,
-				3EBB8C8A1466E5E7008A4399 /* JSONChecker */,
-				3EBB8CB01466E5E7008A4399 /* README */,
-				3EBB8CB11466E5E7008A4399 /* rfc4627a.json */,
-				3EBB8CB21466E5E7008A4399 /* rfc4627a.plist */,
-				3EBB8CB31466E5E7008A4399 /* rfc4627b.json */,
-				3EBB8CB41466E5E7008A4399 /* rfc4627b.plist */,
-			);
-			path = TestData;
-			sourceTree = "<group>";
-		};
-		3EBB8C8A1466E5E7008A4399 /* JSONChecker */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8C8B1466E5E7008A4399 /* fail1.json */,
-				3EBB8C8C1466E5E7008A4399 /* fail10.json */,
-				3EBB8C8D1466E5E7008A4399 /* fail11.json */,
-				3EBB8C8E1466E5E7008A4399 /* fail12.json */,
-				3EBB8C8F1466E5E7008A4399 /* fail13.json */,
-				3EBB8C901466E5E7008A4399 /* fail14.json */,
-				3EBB8C911466E5E7008A4399 /* fail15.json */,
-				3EBB8C921466E5E7008A4399 /* fail16.json */,
-				3EBB8C931466E5E7008A4399 /* fail17.json */,
-				3EBB8C941466E5E7008A4399 /* fail18.json */,
-				3EBB8C951466E5E7008A4399 /* fail19.json */,
-				3EBB8C961466E5E7008A4399 /* fail2.json */,
-				3EBB8C971466E5E7008A4399 /* fail20.json */,
-				3EBB8C981466E5E7008A4399 /* fail21.json */,
-				3EBB8C991466E5E7008A4399 /* fail22.json */,
-				3EBB8C9A1466E5E7008A4399 /* fail23.json */,
-				3EBB8C9B1466E5E7008A4399 /* fail24.json */,
-				3EBB8C9C1466E5E7008A4399 /* fail25.json */,
-				3EBB8C9D1466E5E7008A4399 /* fail26.json */,
-				3EBB8C9E1466E5E7008A4399 /* fail27.json */,
-				3EBB8C9F1466E5E7008A4399 /* fail28.json */,
-				3EBB8CA01466E5E7008A4399 /* fail29.json */,
-				3EBB8CA11466E5E7008A4399 /* fail3.json */,
-				3EBB8CA21466E5E7008A4399 /* fail30.json */,
-				3EBB8CA31466E5E7008A4399 /* fail31.json */,
-				3EBB8CA41466E5E7008A4399 /* fail32.json */,
-				3EBB8CA51466E5E7008A4399 /* fail33.json */,
-				3EBB8CA61466E5E7008A4399 /* fail4.json */,
-				3EBB8CA71466E5E7008A4399 /* fail5.json */,
-				3EBB8CA81466E5E7008A4399 /* fail6.json */,
-				3EBB8CA91466E5E7008A4399 /* fail7.json */,
-				3EBB8CAA1466E5E7008A4399 /* fail8.json */,
-				3EBB8CAB1466E5E7008A4399 /* fail9.json */,
-				3EBB8CAC1466E5E7008A4399 /* pass1.json */,
-				3EBB8CAD1466E5E7008A4399 /* pass2.json */,
-				3EBB8CAE1466E5E7008A4399 /* pass3.json */,
-				3EBB8CAF1466E5E7008A4399 /* README */,
-			);
-			path = JSONChecker;
-			sourceTree = "<group>";
-		};
-		3EBB8CB51466E5E7008A4399 /* ZTWebSocket */ = {
-			isa = PBXGroup;
-			children = (
-				3EBB8CB61466E5E7008A4399 /* ZTWebSocket.h */,
-				3EBB8CB71466E5E7008A4399 /* ZTWebSocket.m */,
-			);
-			path = ZTWebSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,36 +133,6 @@
 				24DD6CF91134B3F500162E58 /* ComPusherModule.h in Headers */,
 				3EBB8BFE1466E56E008A4399 /* ComPusherChannelProxy.h in Headers */,
 				3EBB8C021466E56E008A4399 /* ComPusherModuleAssets.h in Headers */,
-				3EBB8C221466E5C7008A4399 /* NSDictionary+QueryString.h in Headers */,
-				3EBB8C241466E5C7008A4399 /* NSString+Hashing.h in Headers */,
-				3EBB8C261466E5C7008A4399 /* PTBlockEventListener.h in Headers */,
-				3EBB8C281466E5C7008A4399 /* PTEventListener.h in Headers */,
-				3EBB8C291466E5C7008A4399 /* PTPusher.h in Headers */,
-				3EBB8C2B1466E5C7008A4399 /* PTPusherAPI.h in Headers */,
-				3EBB8C2D1466E5C7008A4399 /* PTPusherChannel.h in Headers */,
-				3EBB8C2F1466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.h in Headers */,
-				3EBB8C311466E5C7008A4399 /* PTPusherConnection.h in Headers */,
-				3EBB8C331466E5C7008A4399 /* PTPusherDelegate.h in Headers */,
-				3EBB8C341466E5C7008A4399 /* PTPusherErrors.h in Headers */,
-				3EBB8C351466E5C7008A4399 /* PTPusherEvent.h in Headers */,
-				3EBB8C371466E5C7008A4399 /* PTPusherEventDispatcher.h in Headers */,
-				3EBB8C391466E5C7008A4399 /* PTPusherEventPublisher.h in Headers */,
-				3EBB8C3A1466E5C7008A4399 /* PTPusherPresenceChannelDelegate.h in Headers */,
-				3EBB8C3B1466E5C7008A4399 /* PTTargetActionEventListener.h in Headers */,
-				3EBB8C3D1466E5C7008A4399 /* PTURLRequestOperation.h in Headers */,
-				3EBB8CC51466E5E7008A4399 /* CDataScanner.h in Headers */,
-				3EBB8CC71466E5E7008A4399 /* CFilteringJSONSerializer.h in Headers */,
-				3EBB8CC91466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.h in Headers */,
-				3EBB8CCB1466E5E7008A4399 /* CJSONSerialization.h in Headers */,
-				3EBB8CCD1466E5E7008A4399 /* CJSONSerializedData.h in Headers */,
-				3EBB8CCF1466E5E7008A4399 /* CDataScanner_Extensions.h in Headers */,
-				3EBB8CD11466E5E7008A4399 /* NSDictionary_JSONExtensions.h in Headers */,
-				3EBB8CD31466E5E7008A4399 /* CJSONDeserializer.h in Headers */,
-				3EBB8CD51466E5E7008A4399 /* CJSONScanner.h in Headers */,
-				3EBB8CD71466E5E7008A4399 /* CJSONSerializer.h in Headers */,
-				3EBB8CD91466E5E7008A4399 /* JSONRepresentation.h in Headers */,
-				3EBB8CDC1466E5E7008A4399 /* TouchJSONBenchmark_Prefix.pch in Headers */,
-				3EBB8CE51466E5E7008A4399 /* ZTWebSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +146,7 @@
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
+				13BA9E8C9B6F46DEBAFD7F7A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -695,8 +162,11 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "pusher" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -708,20 +178,6 @@
 			mainGroup = 0867D691FE84028FC02AAC07 /* pusher */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3EBB8C701466E5E7008A4399 /* Products */;
-					ProjectRef = 3EBB8C6F1466E5E7008A4399 /* TouchJSON-iOS.xcodeproj */;
-				},
-				{
-					ProductGroup = 3EBB8C731466E5E7008A4399 /* Products */;
-					ProjectRef = 3EBB8C721466E5E7008A4399 /* TouchJSON.xcodeproj */;
-				},
-				{
-					ProductGroup = 3EBB8C681466E5E7008A4399 /* Products */;
-					ProjectRef = 3EBB8C671466E5E7008A4399 /* TouchJSONBenchmark.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* pusher */,
@@ -730,45 +186,21 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		3EBB8CEA1466E5E7008A4399 /* libTouchJSON-iphoneos.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libTouchJSON-iphoneos.a";
-			remoteRef = 3EBB8CE91466E5E7008A4399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3EBB8CEC1466E5E7008A4399 /* libTouchJSON-iphonesimulator.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libTouchJSON-iphonesimulator.a";
-			remoteRef = 3EBB8CEB1466E5E7008A4399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3EBB8CF11466E5E7008A4399 /* UnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UnitTests.octest;
-			remoteRef = 3EBB8CF01466E5E7008A4399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3EBB8CF31466E5E7008A4399 /* TouchJSON Demo */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "TouchJSON Demo";
-			remoteRef = 3EBB8CF21466E5E7008A4399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3EBB8CF61466E5E7008A4399 /* TouchJSONBenchmark */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = TouchJSONBenchmark;
-			remoteRef = 3EBB8CF51466E5E7008A4399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXShellScriptBuildPhase section */
+		13BA9E8C9B6F46DEBAFD7F7A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		24416B8011C4CA220047AFDD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,31 +224,6 @@
 				24DD6CFA1134B3F500162E58 /* ComPusherModule.m in Sources */,
 				3EBB8BFF1466E56E008A4399 /* ComPusherChannelProxy.m in Sources */,
 				3EBB8C031466E56E008A4399 /* ComPusherModuleAssets.m in Sources */,
-				3EBB8C231466E5C7008A4399 /* NSDictionary+QueryString.m in Sources */,
-				3EBB8C251466E5C7008A4399 /* NSString+Hashing.m in Sources */,
-				3EBB8C271466E5C7008A4399 /* PTBlockEventListener.m in Sources */,
-				3EBB8C2A1466E5C7008A4399 /* PTPusher.m in Sources */,
-				3EBB8C2C1466E5C7008A4399 /* PTPusherAPI.m in Sources */,
-				3EBB8C2E1466E5C7008A4399 /* PTPusherChannel.m in Sources */,
-				3EBB8C301466E5C7008A4399 /* PTPusherChannelAuthorizationOperation.m in Sources */,
-				3EBB8C321466E5C7008A4399 /* PTPusherConnection.m in Sources */,
-				3EBB8C361466E5C7008A4399 /* PTPusherEvent.m in Sources */,
-				3EBB8C381466E5C7008A4399 /* PTPusherEventDispatcher.m in Sources */,
-				3EBB8C3C1466E5C7008A4399 /* PTTargetActionEventListener.m in Sources */,
-				3EBB8C3E1466E5C7008A4399 /* PTURLRequestOperation.m in Sources */,
-				3EBB8CC61466E5E7008A4399 /* CDataScanner.m in Sources */,
-				3EBB8CC81466E5E7008A4399 /* CFilteringJSONSerializer.m in Sources */,
-				3EBB8CCA1466E5E7008A4399 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
-				3EBB8CCC1466E5E7008A4399 /* CJSONSerialization.m in Sources */,
-				3EBB8CCE1466E5E7008A4399 /* CJSONSerializedData.m in Sources */,
-				3EBB8CD01466E5E7008A4399 /* CDataScanner_Extensions.m in Sources */,
-				3EBB8CD21466E5E7008A4399 /* NSDictionary_JSONExtensions.m in Sources */,
-				3EBB8CD41466E5E7008A4399 /* CJSONDeserializer.m in Sources */,
-				3EBB8CD61466E5E7008A4399 /* CJSONScanner.m in Sources */,
-				3EBB8CD81466E5E7008A4399 /* CJSONSerializer.m in Sources */,
-				3EBB8CDA1466E5E7008A4399 /* main.m in Sources */,
-				3EBB8CDB1466E5E7008A4399 /* TouchJSONBenchmark.m in Sources */,
-				3EBB8CE61466E5E7008A4399 /* ZTWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,13 +249,26 @@
 				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/ComPusher.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ComPusher_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/SocketRocket\"",
+					"\"${PODS_ROOT}/Headers/TouchJSON\"",
+					"\"${PODS_ROOT}/Headers/libPusher\"",
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+				);
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ComPusher;
 				SDKROOT = iphoneos;
 			};
@@ -864,10 +284,24 @@
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				DSTROOT = /tmp/ComPusher.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ComPusher_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/SocketRocket\"",
+					"\"${PODS_ROOT}/Headers/TouchJSON\"",
+					"\"${PODS_ROOT}/Headers/libPusher\"",
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+				);
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ComPusher;
 				SDKROOT = iphoneos;
 			};
@@ -883,10 +317,10 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -900,10 +334,10 @@
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -915,6 +349,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = "Build & test";
 			};
 			name = Debug;
@@ -925,7 +360,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = "Build & test";
 				ZERO_LINK = NO;
 			};

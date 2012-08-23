@@ -13,3 +13,7 @@ build
 *.perspective
 *.perspectivev3
 *.pbxuser
+xcuserdata
+
+DerivedData
+Pods
